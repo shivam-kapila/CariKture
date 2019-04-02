@@ -501,7 +501,7 @@ ul.dropdown:hover {
     padding-bottom: 12.5rem!important;
     overflow: hidden;
     text-align: center!important;
-    height: 84vh!important; 
+    height: 86vh!important; 
     width: 99vw;
     background-attachment: fixed;
     background-position: center;
@@ -512,9 +512,19 @@ ul.dropdown:hover {
 .parallax1 {
     background-image: url("images/parallax1.jpg");
 }
+
 .parallax2 {
     background-image: url("images/parallax2.png");
 }
+
+.parallax3 {
+    background-image: url("images/parallax3.jpeg");
+}
+
+.parallax4 {
+    background-image: url("images/parallax4.jpg");
+}
+
 .datahuge {
     color: #fff;
     font-size: 5rem;
@@ -535,7 +545,7 @@ ul.dropdown:hover {
     font-size: 36px;
     text-align: center;
     color: #1f1f1f;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .st {
@@ -554,3 +564,49 @@ ul.dropdown:hover {
     
 }
 
+.over {
+    margin-top: -40vh!important;
+    padding: 40vh;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+}
+
+.bigimg img{
+/* width: auto !important; */
+/* width: 1140px!important; */
+max-width: 100%!important;
+}
+
+.footer {
+    margin: -10px;
+    margin-top: 10%;
+    margin-bottom: -10px;
+    text-align: center;
+    width: 100vw;
+}
+
+.footer-grey {
+    background: #e1e1e1!important;
+    padding: 1.8rem;
+}
+
+.footer-grey i {
+    padding: 0.3rem;
+    font-size: 1.333rem!important;
+    color: #1f1f1f;
+}
+
+.footer-dark {
+    background: #161820!important;
+    padding: 4rem;
+}
+
+.footer-dark p {
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.greyp {
+    color: #6a6a6a!important;
+}
