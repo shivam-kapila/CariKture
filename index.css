@@ -458,10 +458,12 @@ ul.dropdown:hover {
 
 
 .head {
-    font-weight: 400!important;
+    font-weight: 200!important;
     text-align: center;
     font-size: 36px;
     margin: 10% 5% 0% 5%;
+    color: #1f1f1f;
+
 }
 
 .desc {
@@ -609,4 +611,10 @@ max-width: 100%!important;
 
 .greyp {
     color: #6a6a6a!important;
+}
+
+.flexslider {
+    background: rgba(0,0,0,.5);
+    height: 100vh!important;
+    z-index: 10!important;
 }
